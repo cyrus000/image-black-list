@@ -1,0 +1,32 @@
+{
+  "name": "image-black-list",
+  "version": "1.0.0",
+  "description": "image black list using phash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrus000/image-black-list.git"
+  },
+  "keywords": [
+    "phash",
+    "image",
+    "black",
+    "list"
+  ],
+  "author": "Cyrus Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyrus000/image-black-list/issues"
+  },
+  "homepage": "https://github.com/cyrus000/image-black-list#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "hamming-distance": "^1.0.0",
+    "jimp": "^0.6.0",
+    "mnemonist": "^0.27.2",
+    "redis": "^2.8.0"
+  }
+}
