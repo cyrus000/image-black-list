@@ -6,6 +6,7 @@
 ## usage
 
 ```javascript 1.8
+//images can be files or urls
 const ImageBlackList = require('image-black-list');
 
 const ibl = new ImageBlackList({ hashes: {
@@ -32,6 +33,7 @@ ibl.addImageToBlackList(d1, ()=> {
 ```
 
 ```javascript 1.8
+//redis client will hold state on restarts
 const ImageBlackList = require('image-black-list');
 
 const config ={
